@@ -1,5 +1,7 @@
-import Pessoa from './pessoa'
+import 'react'
 
+export default props => (
+   <h1>Olá</h1>
+)
 
-const pessoa = new Pessoa('Thiago Fernandes')
-console.log(pessoa.toString())
+console.log('Funcionou!!')
